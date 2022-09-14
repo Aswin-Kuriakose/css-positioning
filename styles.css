@@ -12,22 +12,18 @@
     clear: both;
 }
 
+.service {
+    float: left;
+    background: #eee;
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+    height: 140px;
 
-
-.blue {
-    background: blue;
-    float: right;
 }
-.red {
-    background: red;
-    float: right;
-}
-.green {
-    background: green;
-    float: right;
-}
-.box {
-    height: 100px;
-    width: 100px;
+.service h2, .service p {
+    color: #999;
+    margin: 10px auto;
+    text-align: center;
 
 }
