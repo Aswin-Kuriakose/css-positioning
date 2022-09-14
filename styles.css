@@ -1,5 +1,4 @@
 .wrapper {
-    background: rgb(235, 221, 221);
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
@@ -11,6 +10,12 @@
     display: block;
     clear: both;
 }
+.services::after {
+    content: "";
+    display: block;
+    clear :both;
+}
+
 
 .service {
     float: left;
@@ -26,4 +31,21 @@
     margin: 10px auto;
     text-align: center;
 
+}
+.content {
+    padding: 10px;
+    clear: left;
+    margin-top: 20px 1%;
+}
+section , aside {
+    float: left;
+    width: 46%;
+    padding: 1%;
+    margin: 1%;
+    background: #f2f2f2;
+}
+.columns::after {
+    display: block;
+    content: "";
+    clear: both;
 }
